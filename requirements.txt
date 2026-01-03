@@ -1,0 +1,30 @@
+# Testing Framework for Agentic RAG System
+# Updated: January 2, 2026
+
+# Environment management
+python-dotenv==1.0.1
+
+# LlamaIndex core and components (must match Agentic-RAG versions)
+llama-index==0.11.20
+llama-index-llms-openai==0.2.15
+llama-index-embeddings-openai==0.2.11
+llama-index-core==0.11.20
+llama-index-agent-openai==0.3.6
+
+# OpenAI and utilities
+openai==1.59.6
+tiktoken==0.8.0
+
+# DeepEval for evaluation (NOT 2.0.0 - it doesn't exist!)
+deepeval==1.4.28
+
+# Testing framework
+pytest==8.3.4
+pytest-asyncio==0.24.0
+pytest-cov==6.0.0
+pytest-mock==3.14.0
+
+# Pydantic
+pydantic==2.10.5
+pydantic-settings==2.7.1
+
